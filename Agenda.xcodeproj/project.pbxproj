@@ -15,6 +15,8 @@
 		03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17651FC84353003CB2B8 /* HomeTableViewController.swift */; };
 		03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17671FC843B1003CB2B8 /* HomeTableViewCell.swift */; };
 		03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA176C1FC8515A003CB2B8 /* AlunoViewController.swift */; };
+		CE3734C8267A8BEC002DFAD0 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3734C7267A8BEC002DFAD0 /* Localizacao.swift */; };
+		CE3734CE267A9FB6002DFAD0 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3734CD267A9FB6002DFAD0 /* MapaViewController.swift */; };
 		CE4AE911267A6C0200F77873 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4AE910267A6C0200F77873 /* Mensagem.swift */; };
 		CE75AE11267A2C43005E9FC0 /* MenuOpcoesAlunos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75AE10267A2C43005E9FC0 /* MenuOpcoesAlunos.swift */; };
 		CEB966E9267402CF00775C54 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB966E8267402CF00775C54 /* ImagePicker.swift */; };
@@ -31,6 +33,8 @@
 		03AA17651FC84353003CB2B8 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		03AA17671FC843B1003CB2B8 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		03AA176C1FC8515A003CB2B8 /* AlunoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoViewController.swift; sourceTree = "<group>"; };
+		CE3734C7267A8BEC002DFAD0 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		CE3734CD267A9FB6002DFAD0 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		CE4AE910267A6C0200F77873 /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
 		CE75AE10267A2C43005E9FC0 /* MenuOpcoesAlunos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOpcoesAlunos.swift; sourceTree = "<group>"; };
 		CEB966E8267402CF00775C54 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 				03AA174D1FC84154003CB2B8 /* AppDelegate.swift */,
 				03AA17621FC8433E003CB2B8 /* Home */,
 				03AA17691FC84A2D003CB2B8 /* Alunos */,
+				CE3734C9267A9F21002DFAD0 /* Mapa */,
 				CEB966E72674026B00775C54 /* Componentes */,
 				03AA17511FC84154003CB2B8 /* Main.storyboard */,
 				03AA17571FC84154003CB2B8 /* Assets.xcassets */,
@@ -128,12 +133,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CE3734C9267A9F21002DFAD0 /* Mapa */ = {
+			isa = PBXGroup;
+			children = (
+				CE3734CA267A9F4C002DFAD0 /* Controller */,
+			);
+			path = Mapa;
+			sourceTree = "<group>";
+		};
+		CE3734CA267A9F4C002DFAD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE3734CD267A9FB6002DFAD0 /* MapaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CEB966E72674026B00775C54 /* Componentes */ = {
 			isa = PBXGroup;
 			children = (
 				CEB966E8267402CF00775C54 /* ImagePicker.swift */,
 				CE75AE10267A2C43005E9FC0 /* MenuOpcoesAlunos.swift */,
 				CE4AE910267A6C0200F77873 /* Mensagem.swift */,
+				CE3734C7267A8BEC002DFAD0 /* Localizacao.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -217,7 +239,9 @@
 				03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */,
 				CE75AE11267A2C43005E9FC0 /* MenuOpcoesAlunos.swift in Sources */,
 				CE4AE911267A6C0200F77873 /* Mensagem.swift in Sources */,
+				CE3734CE267A9FB6002DFAD0 /* MapaViewController.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
+				CE3734C8267A8BEC002DFAD0 /* Localizacao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
