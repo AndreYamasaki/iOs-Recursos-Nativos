@@ -18,4 +18,12 @@ class Localizacao: NSObject {
             }
         }
     }
+    
+    func configuraPino(titulo: String, localizacao: CLPlacemark, cor: UIColor?, icone: UIImage?) -> Pino {
+        let pino = Pino(coordenada: localizacao.location!.coordinate)
+        pino.title = titulo
+        pino.color = cor
+        pino.icon = icone
+        return pino
+    }
 }

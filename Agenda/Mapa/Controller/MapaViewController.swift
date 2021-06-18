@@ -36,8 +36,9 @@ class MapaViewController: UIViewController {
     }
     
     func localizacaoInicial() {
-        Localizacao().converteEnderecoEmCoordenadas(endereco: "") { (localizacaoEncontrada) in
-            let pino = self.configuraPino(titulo: "", localizacao: localizacaoEncontrada)
+        Localizacao().converteEnderecoEmCoordenadas(endereco: "Caelum - São Paulo") { (localizacaoEncontrada) in
+            //let pino = self.configuraPino(titulo: "", localizacao: localizacaoEncontrada)
+            let pino = Localizacao().configuraPino(titulo: "Caelum", localizacao: localizacaoEncontrada, cor: .black, icone: <#T##UIImage?#>)
             let regiao = MKCoordinateRegionMakeWithDistance(pino.coordinate, 5000, 5000)
             self.mapa.setRegion(regiao, animated: true)
             self.mapa.addAnnotation(pino)
@@ -52,13 +53,5 @@ class MapaViewController: UIViewController {
             }
         }
     }
-    
-    func configuraPino(titulo: String, localizacao: CLPlacemark) -> MKPointAnnotation {
-        let pino = MKPointAnnotation()
-        pino.title = titulo
-        pino.coordinate = localizacao.location!.coordinate
-        return pino
-    }
-    
 
 }
