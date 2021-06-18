@@ -17,6 +17,7 @@ enum MenuActionSheetAluno {
 
 class MenuOpcoesAluno: NSObject {
     func configuraMenuDeOpcoesAluno(completion: @escaping (_ opcao: MenuActionSheetAluno) -> Void) -> UIAlertController {
+        
         let menu = UIAlertController(title: "Atenção", message: "Escolha uma das mensagens abaixo", preferredStyle: .actionSheet)
         let sms = UIAlertAction(title: "enviar SMS", style: .default) { (acao) in
             completion(.sms)
