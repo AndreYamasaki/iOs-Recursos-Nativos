@@ -223,8 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				CEE2CA7126826DB8002DF2B5 /* AlunoAPI.swift */,
-				CEE2CA7326827BAA002DF2B5 /* Repositorio.swift */,
 				CEE2CA7526827CF3002DF2B5 /* AlunoDAO.swift */,
+				CEE2CA7326827BAA002DF2B5 /* Repositorio.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
