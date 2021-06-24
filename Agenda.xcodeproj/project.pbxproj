@@ -20,9 +20,12 @@
 		CE47350F267CCEFA008AAC16 /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47350E267CCEFA008AAC16 /* AutenticacaoLocal.swift */; };
 		CE473512267D223C008AAC16 /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE473511267D223C008AAC16 /* Pino.swift */; };
 		CE4AE911267A6C0200F77873 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4AE910267A6C0200F77873 /* Mensagem.swift */; };
+		CE6BA1E32685152300F93B81 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BA1E22685152300F93B81 /* Filtro.swift */; };
 		CE75AE11267A2C43005E9FC0 /* MenuOpcoesAlunos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75AE10267A2C43005E9FC0 /* MenuOpcoesAlunos.swift */; };
 		CE7D3E93267BA06A00F81B40 /* CalculaMediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D3E92267BA06A00F81B40 /* CalculaMediaAPI.swift */; };
 		CE7D3E95267BC30E00F81B40 /* Notificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D3E94267BC30E00F81B40 /* Notificacoes.swift */; };
+		CEB06EE22685066C0088B6D1 /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB06EE12685066C0088B6D1 /* LigacaoTelefonica.swift */; };
+		CEB06EE4268509320088B6D1 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB06EE3268509320088B6D1 /* Safari.swift */; };
 		CEB966E9267402CF00775C54 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB966E8267402CF00775C54 /* ImagePicker.swift */; };
 		CEE2CA7226826DB8002DF2B5 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CA7126826DB8002DF2B5 /* AlunoAPI.swift */; };
 		CEE2CA7426827BAA002DF2B5 /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CA7326827BAA002DF2B5 /* Repositorio.swift */; };
@@ -49,9 +52,12 @@
 		CE47350E267CCEFA008AAC16 /* AutenticacaoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticacaoLocal.swift; sourceTree = "<group>"; };
 		CE473511267D223C008AAC16 /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
 		CE4AE910267A6C0200F77873 /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
+		CE6BA1E22685152300F93B81 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		CE75AE10267A2C43005E9FC0 /* MenuOpcoesAlunos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOpcoesAlunos.swift; sourceTree = "<group>"; };
 		CE7D3E92267BA06A00F81B40 /* CalculaMediaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaMediaAPI.swift; sourceTree = "<group>"; };
 		CE7D3E94267BC30E00F81B40 /* Notificacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificacoes.swift; sourceTree = "<group>"; };
+		CEB06EE12685066C0088B6D1 /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
+		CEB06EE3268509320088B6D1 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
 		CEB966E8267402CF00775C54 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		CEE2CA7126826DB8002DF2B5 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		CEE2CA7326827BAA002DF2B5 /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
@@ -215,6 +221,9 @@
 				CE3734C7267A8BEC002DFAD0 /* Localizacao.swift */,
 				CE7D3E94267BC30E00F81B40 /* Notificacoes.swift */,
 				CE47350E267CCEFA008AAC16 /* AutenticacaoLocal.swift */,
+				CEB06EE12685066C0088B6D1 /* LigacaoTelefonica.swift */,
+				CEB06EE3268509320088B6D1 /* Safari.swift */,
+				CE6BA1E22685152300F93B81 /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -349,15 +358,18 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				CEE2CA7226826DB8002DF2B5 /* AlunoAPI.swift in Sources */,
 				CE473512267D223C008AAC16 /* Pino.swift in Sources */,
+				CE6BA1E32685152300F93B81 /* Filtro.swift in Sources */,
 				CEE2CA7626827CF3002DF2B5 /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				CEB966E9267402CF00775C54 /* ImagePicker.swift in Sources */,
 				CE7D3E93267BA06A00F81B40 /* CalculaMediaAPI.swift in Sources */,
 				03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */,
+				CEB06EE4268509320088B6D1 /* Safari.swift in Sources */,
 				CE75AE11267A2C43005E9FC0 /* MenuOpcoesAlunos.swift in Sources */,
 				CE4AE911267A6C0200F77873 /* Mensagem.swift in Sources */,
 				CE7D3E95267BC30E00F81B40 /* Notificacoes.swift in Sources */,
+				CEB06EE22685066C0088B6D1 /* LigacaoTelefonica.swift in Sources */,
 				CEE2CA7426827BAA002DF2B5 /* Repositorio.swift in Sources */,
 				CE3734CE267A9FB6002DFAD0 /* MapaViewController.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,

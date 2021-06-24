@@ -19,9 +19,9 @@ class AlunoDAO: NSObject {
     
     func recuperaAlunos() -> Array<Aluno>{
         
-        AlunoAPI().recuperaAlunos {
-            <#code#>
-        }
+//        AlunoAPI().recuperaAlunos {
+//            <#code#>
+//        }
         
         let pesquisaAluno: NSFetchRequest<Aluno> = Aluno.fetchRequest()
         let ordenaPorNome = NSSortDescriptor(key: "nome", ascending: true)
